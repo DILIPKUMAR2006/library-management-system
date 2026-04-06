@@ -1,27 +1,48 @@
 # 📚 Library Management System
 
-A simple Java-based console application to manage:
+> A console-based Library Management System built in Java — where students can register, issue books, and return books, all managed through a simple menu-driven interface.
 
-- ✅ Student registration
-- 📖 Adding and showing books
-- 📕 Issuing and returning books
-- ⏳ Checking borrow limits (max 3)
+---
 
-## 💻 How to Run
+## Tech Stack
 
-1. Compile all Java files: javac *.java
-   
-2. Run the main class: java Library
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-   
-## 📂 Files
+---
 
-- `Book.java` – Blueprint for book objects
-- `Books.java` – Manages book-related logic
-- `Student.java` – Student data structure
-- `Students.java` – Manages student operations
-- `Library.java` – Main menu (UI)
+## Features
 
-## 👨‍💻 Author
+- 📝 Register students
+- 📖 Add books to the library
+- 🔍 View all books and student details
+- ✅ Issue a book to a student
+- 🔄 Return a book back to the library
+- ⚠️ Max 3 books allowed per student at a time
 
-[DILIP KUMAR](https://github.com/DILIPKUMAR2006)
+---
+
+## Project Structure
+
+src
+├── Book.java       → Book model (name, number, author, quantity)
+├── Books.java      → Book operations (add, issue, return, search)
+├── Student.java    → Student model (name, roll no, borrowed count)
+├── Students.java   → Student operations (register, issue, return book)
+└── Library.java    → Main class — menu-driven entry point
+
+---
+
+## How to Run
+
+1. Clone the repo and open in any Java IDE (IntelliJ / Eclipse)
+2. Run `Library.java`
+3. Use the menu to register students, add books, issue and return books
+
+---
+
+## Author
+
+**Dilipkumar**
+
+- GitHub: [@dilipkumar](https://github.com/DILIPKUMAR2006)
+- LinkedIn: [dilipkumar](https://linkedin.com/in/dilipkumar2410)
