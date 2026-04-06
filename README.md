@@ -22,23 +22,14 @@
 ---
 
 ## Project Structure
-
-src
+```
+src/
 ├── Book.java       → Book model (name, number, author, quantity)
 ├── Books.java      → Book operations (add, issue, return, search)
 ├── Student.java    → Student model (name, roll no, borrowed count)
 ├── Students.java   → Student operations (register, issue, return book)
 └── Library.java    → Main class — menu-driven entry point
-
----
-
-## How to Run
-
-1. Clone the repo and open in any Java IDE (IntelliJ / Eclipse)
-2. Run `Library.java`
-3. Use the menu to register students, add books, issue and return books
-
----
+```
 
 ## Author
 
